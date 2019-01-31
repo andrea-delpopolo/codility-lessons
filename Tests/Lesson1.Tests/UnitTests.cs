@@ -1,9 +1,9 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-
 namespace Lesson1.Tests
 {
-	[TestClass]
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using System;
+
+    [TestClass]
 	public class UnitTests
 	{
 		[TestMethod]
