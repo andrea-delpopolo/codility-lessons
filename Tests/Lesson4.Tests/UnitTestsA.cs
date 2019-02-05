@@ -51,7 +51,7 @@ namespace Lesson4.Tests
             var sol = new Solution4a();
             const int Max = 100000;
             var largeArray = new int[Max];
-            for(int i=0;i<Max;i++)
+            for (int i = 0; i < Max; i++)
             {
                 largeArray[i] = i + 1;
             }
@@ -61,6 +61,21 @@ namespace Lesson4.Tests
 
             // Assert
             Assert.IsTrue(actual == 1);
+        }
+
+        [TestMethod]
+        public void NotSoSimpleTest5()
+        {
+            // Arrange
+            var sol = new Solution4a();
+            const int BigOne = 1000000000;
+            var largeArray = new int[] { 1, BigOne };
+
+            // Act
+            var actual = sol.solution(largeArray);
+
+            // Assert
+            Assert.IsTrue(actual == 0);
         }
     }
 }

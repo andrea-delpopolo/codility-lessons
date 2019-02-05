@@ -8,7 +8,14 @@
         {
             if (A.Length == 1)
             {
-                return 1;
+                if (A[0] == 1)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
             }
 
             var m = A.Max();
