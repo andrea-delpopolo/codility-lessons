@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2b", "Lesson2b\Lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2b.Tests", "Tests\Lesson2b.Tests\Lesson2b.Tests.csproj", "{2892D651-AF82-4481-9B53-9AEC20246869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3", "Lesson3a\Lesson3.csproj", "{D8E5CFF5-B099-491A-82CF-B86E9BB2A707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3", "Lesson3a\Lesson3.csproj", "{D8E5CFF5-B099-491A-82CF-B86E9BB2A707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3.Tests", "Tests\Lesson3.Tests\Lesson3.Tests.csproj", "{61207ED8-5EA8-4E33-A8F4-CA4D41C377C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3.Tests", "Tests\Lesson3.Tests\Lesson3.Tests.csproj", "{61207ED8-5EA8-4E33-A8F4-CA4D41C377C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4", "Lesson4\Lesson4.csproj", "{66B2DA43-9032-491A-87C9-BEB7A9539D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4.Tests", "Tests\Lesson4.Tests\Lesson4.Tests.csproj", "{9F5E9EFF-B712-4B51-A687-3FA20E8B6F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{61207ED8-5EA8-4E33-A8F4-CA4D41C377C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61207ED8-5EA8-4E33-A8F4-CA4D41C377C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61207ED8-5EA8-4E33-A8F4-CA4D41C377C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B2DA43-9032-491A-87C9-BEB7A9539D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B2DA43-9032-491A-87C9-BEB7A9539D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B2DA43-9032-491A-87C9-BEB7A9539D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B2DA43-9032-491A-87C9-BEB7A9539D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5E9EFF-B712-4B51-A687-3FA20E8B6F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5E9EFF-B712-4B51-A687-3FA20E8B6F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5E9EFF-B712-4B51-A687-3FA20E8B6F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5E9EFF-B712-4B51-A687-3FA20E8B6F20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
